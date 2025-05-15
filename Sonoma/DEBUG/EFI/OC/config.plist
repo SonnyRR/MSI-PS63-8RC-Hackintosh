@@ -508,9 +508,17 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
+				<data>CQClPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
+				<key>model</key>
+				<string>Intel CoffeeLake-U GT3e [Iris Plus Graphics 655]</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
@@ -932,6 +940,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/BrightnessKeys</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+				<key>Comment</key>
+				<string>HibernationFixup.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1681,11 +1707,11 @@
 			</dict>
 			<key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
 			<dict>
-				<key>#hbfx-ahbm</key>
+				<key>hbfx-ahbm</key>
 				<integer>64</integer>
-				<key>#hbfx-disable-patch-pci</key>
-				<true/>
-				<key>#hbfx-dump-nvram</key>
+				<key>hbfx-disable-patch-pci</key>
+				<false/>
+				<key>hbfx-dump-nvram</key>
 				<true/>
 			</dict>
 		</dict>
@@ -1753,23 +1779,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF9104034N00001F</string>
+			<string></string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>GK9hb87y</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,4</string>
+			<string>MacBookPro15,1</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFYDNZHL40Y</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>FFE88CE6-2B3E-4C9C-B8A9-C25B0655EC33</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
